@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Click the button to merge two arrays.</h1>
+<button onclick="mergetwoarrays()">Click now</button>
+<p id="demo"></p>
+<script>
+function mergetwoarrays() {
+  var s1 = ["html", "javascript"];
+  var s2 = ["web", "es6"];
+  var s = s1.concat(s2); //here we are adding s1 and s2 arrays using concat method and storing values into s
+  document.getElementById("demo").innerHTML = s;
+}
+</script>
+</body>
+</html>
